@@ -1,0 +1,29 @@
+@import url("whitespace-reset.css");
+body {
+  background-color: brown !important; }
+  body h1 {
+    width: 25%;
+    margin: 0 auto 20px auto; }
+  body .code-submit-form {
+    width: 70%;
+    height: 85px;
+    margin: 200px auto 0 auto; }
+    body .code-submit-form span {
+      font-size: 26px; }
+    body .code-submit-form textarea {
+      width: 100%;
+      height: 100%; }
+    body .code-submit-form .btn {
+      display: block;
+      margin-top: 10px; }
+  body .output-form {
+    width: 70%;
+    height: 85px;
+    margin: 200px auto 0 auto; }
+    body .output-form span {
+      font-size: 26px; }
+    body .output-form textarea {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module '/home/ubuntu/workspace/morsiphy/js/main.js' from '/home/ubuntu/workspace/morsiphy'");

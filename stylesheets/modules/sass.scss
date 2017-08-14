@@ -1,0 +1,48 @@
+@import url("whitespace-reset.css");
+
+// === COLORS ===
+
+// === FONTS ===
+
+// === SIZES ===
+
+// === STYLE ===
+body {
+	background-color: brown !important;
+	h1 {
+		width: 25%;
+		margin: 0 auto 20px auto;
+	}
+	.code-submit-form {
+		width: 70%;
+		height: 85px;
+		margin: 200px auto 0 auto;
+		
+		span {
+		font-size: 26px;
+		}
+		textarea {
+			width: 100%;
+			height: 100%;
+		}
+		.btn {
+			display: block;
+			margin-top: 10px;
+		}
+	}
+	
+	.output-form {
+		width: 70%;
+		height: 85px;
+		margin: 200px auto 0 auto;
+		
+		span {
+		font-size: 26px;
+		}
+		
+		textarea {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
