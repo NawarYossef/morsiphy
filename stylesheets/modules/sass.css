@@ -1,11 +1,11 @@
 @import url("whitespace-reset.css");
 body {
-  font-weight: bold;
   background-image: url("../background-image.jpg"); }
   body h1 {
     font-weight: bold;
+    font-size: 60px;
     color: #ffffff !important;
-    width: 25%;
+    width: 30%;
     margin: 0 auto 20px auto; }
   body .code-submit-form {
     width: 70%;
@@ -13,7 +13,8 @@ body {
     margin: 200px auto 0 auto; }
     body .code-submit-form span {
       color: #ffffff !important;
-      font-size: 26px; }
+      font-size: 26px;
+      font-weight: bold; }
     body .code-submit-form textarea {
       color: black !important;
       width: 100%;
@@ -24,10 +25,11 @@ body {
   body .output-form {
     width: 70%;
     height: 85px;
-    margin: 200px auto 0 auto; }
+    margin: 250px auto 0 auto; }
     body .output-form span {
       color: #ffffff !important;
-      font-size: 26px; }
+      font-size: 26px;
+      font-weight: bold; }
     body .output-form textarea {
       width: 100%;
       height: 100%; }
