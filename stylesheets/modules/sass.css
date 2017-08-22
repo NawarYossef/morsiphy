@@ -1,4 +1,3 @@
-@import url("whitespace-reset.css");
 body {
   background-image: url("../background-image.jpg"); }
   body h1 {
@@ -7,6 +6,17 @@ body {
     color: #ffffff !important;
     width: 30%;
     margin: 0 auto 20px auto; }
+  body textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: black !important; }
+  body .volume {
+    display: inline-block;
+    float: right;
+    margin-bottom: 3px; }
+  body .volume:hover, body .volume:active {
+    cursor: pointer; }
   body .code-submit-form {
     width: 70%;
     height: 85px;
@@ -15,10 +25,6 @@ body {
       color: #ffffff !important;
       font-size: 26px;
       font-weight: bold; }
-    body .code-submit-form textarea {
-      color: black !important;
-      width: 100%;
-      height: 100%; }
     body .code-submit-form .btn {
       display: block;
       margin-top: 10px; }
@@ -30,8 +36,5 @@ body {
       color: #ffffff !important;
       font-size: 26px;
       font-weight: bold; }
-    body .output-form textarea {
-      width: 100%;
-      height: 100%; }
 
 /*# sourceMappingURL=sass.css.map */
