@@ -1,0 +1,24 @@
+{
+  "name": "morsiphy",
+  "version": "1.0.0",
+  "description": "\"translate text to morse code\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NawarYossef/morsiphy.git"
+  },
+  "author": "Nawar Yossef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NawarYossef/morsiphy/issues"
+  },
+  "homepage": "https://github.com/NawarYossef/morsiphy#readme",
+  "dependencies": {
+    "audioconcat": "^0.1.3",
+    "ffmpeg": "0.0.4"
+  }
+}

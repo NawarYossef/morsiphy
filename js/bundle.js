@@ -1,1 +1,1 @@
-console.error("Error: Cannot find module '/home/ubuntu/workspace/morsiphy/js/main.js' from '/home/ubuntu/workspace/morsiphy'");
+console.error("Error: Cannot find module './lib-cov/fluent-ffmpeg' from 'C:\\Users\\nawar\\desktop\\morsiphy\\node_modules\\fluent-ffmpeg'");

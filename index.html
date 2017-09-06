@@ -6,20 +6,22 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/modules/sass.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/bundle.js"></script>
 </head>
 <body>
   <section class="code-submit-form">
     <h1>Morse On!</h1>
     <span>Input Text</span>
     <textarea placeholder="Enter your text here to get some awesome beep action!" class="text"></textarea>
-    <button type="submit" class="btn btn-primary btn-lg">Translate</button>
+    <button type="submit" class="translate btn btn-primary btn-lg">Translate</button>
   </section>
   <section class="output-form">
     <span>Output Morse</span>
-    <div class="volume">
-      <img src="stylesheets/img/volume-on-icon.png">
-    </div>
     <textarea class="output"></textarea>
+    <button type="submit" class="play btn btn-primary btn-lg">play</button>
+  </section> 
+    <audio></audio>
+  <section class="audio-files controls">
+    
   </section>
 </body>

@@ -25,16 +25,6 @@ body {
 		color: black !important;
 	}
 
-	.volume {
-		display: inline-block;
-		float: right;
-		margin-bottom: 3px;
-	}
-
-	.volume:hover, .volume:active {
-		cursor: pointer;
-	}
-
 	.code-submit-form {
 		width: 70%;
 		height: 85px;
@@ -59,6 +49,9 @@ body {
 			color: #ffffff !important;
 			font-size: 26px;
 			font-weight: bold;
+		}
+		textarea {
+			background-color: #DDDDDD;
 		}
 	}
 }

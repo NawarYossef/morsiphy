@@ -11,12 +11,6 @@ body {
     height: 100%;
     font-size: 26px;
     color: black !important; }
-  body .volume {
-    display: inline-block;
-    float: right;
-    margin-bottom: 3px; }
-  body .volume:hover, body .volume:active {
-    cursor: pointer; }
   body .code-submit-form {
     width: 70%;
     height: 85px;
@@ -36,5 +30,7 @@ body {
       color: #ffffff !important;
       font-size: 26px;
       font-weight: bold; }
+    body .output-form textarea {
+      background-color: #DDDDDD; }
 
 /*# sourceMappingURL=sass.css.map */
