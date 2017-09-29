@@ -54,6 +54,7 @@ class Morse {
   convertTextToMorse() {
     let that = this;
     $(document).ready(function(){
+      console.log('hello from convertTextToMorse()');
       $(".translate").click(function(){
         that.text.split('').forEach( function(letter) {
           output.push(map[letter]) ;

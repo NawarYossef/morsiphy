@@ -1,1 +1,0 @@
-console.error("Error: Cannot find module './lib-cov/fluent-ffmpeg' from 'C:\\Users\\nawar\\desktop\\morsiphy\\node_modules\\fluent-ffmpeg'");

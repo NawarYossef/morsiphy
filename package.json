@@ -19,6 +19,7 @@
   "homepage": "https://github.com/NawarYossef/morsiphy#readme",
   "dependencies": {
     "audioconcat": "^0.1.3",
-    "ffmpeg": "0.0.4"
+    "ffmpeg": "0.0.4",
+    "prettier": "^1.6.1"
   }
 }
